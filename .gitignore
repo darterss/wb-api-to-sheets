@@ -1,0 +1,7 @@
+node_modules
+.local
+.env
+dist
+.idea
+secrets/*.json
+!secrets/example.google-credentials.json
