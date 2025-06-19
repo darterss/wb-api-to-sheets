@@ -2,7 +2,7 @@
 
 ## Скачать репозиторий 
 
-
+git clone https://github.com/darterss/wb-api-to-sheets.git
 
 ## Необходимо переименовать и изменнить файл:
 
