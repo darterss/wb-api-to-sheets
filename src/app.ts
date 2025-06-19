@@ -1,7 +1,9 @@
-import knex, { migrate, seed } from "#postgres/knex.js";
-import "./utils/scheduler.js";
+import { migrate, seed } from "#postgres/knex.js";
+import { run } from "./utils/scheduler.js"
 
-await migrate.latest();
-await seed.run();
+await migrate.latest()
+await seed.run()
+run()
+
 
 console.log("All migrations and seeds have been run");

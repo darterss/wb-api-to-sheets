@@ -7,7 +7,7 @@
     "scripts": {
         "dev": "nodemon --watch src --ext ts --exec tsx src/app.ts",
         "watch:build": "tsc --build --force --verbose --watch",
-        "knex:dev": "tsx src/utils/knex.ts",
+        "knex:dev": "tsx src/uwnpmtils/knex.ts",
         "build": "tsc --allowJs",
         "start": "node dist/app.js",
         "knex": "node dist/utils/knex.js",
@@ -42,7 +42,6 @@
         "@babel/core": "^7.23.6",
         "@babel/preset-env": "^7.23.6",
         "@babel/preset-typescript": "^7.24.7",
-        "@types/axios": "^0.14.0",
         "@types/bcrypt": "^5.0.2",
         "@types/cookie-parser": "^1.4.8",
         "@types/cors": "^2.8.17",
@@ -65,6 +64,7 @@
         "nodemon": "^3.0.2",
         "prettier": "^3.3.3",
         "prettier-plugin-jsdoc": "^1.3.0",
+        "tsx": "^4.20.3",
         "typescript": "^5.7.3"
     }
 }
